@@ -1,0 +1,71 @@
+Request method:	POST
+Request URI:	https://sodexo-vn.preprod.zeta.in/sodexo/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=Bearer dG9rZW5WYWx1ZUZvcktQTUdDb3JwUHVibGljQVBJ
+				Host=sodexo-vn.preprod.zeta.in
+				Accept-Encoding=gzip, deflate, br
+				Connection=keep-alive
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "corpId": 17829,
+    "companyId": 18267,
+    "programId": 44623,
+    "fromDate": "2025-11-05",
+    "toDate": "2025-11-05",
+    "payoutDetails": [
+        {
+            "name": "NituDidi",
+            "emailOrPhone": "nitukpmgtest1@mailinator.com",
+            "amount": "10"
+        }
+    ]
+}
+HTTP/1.1 200 
+Date: Sun, 02 May 2021 11:00:04 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=9jkDxbrZIfUT2lnSGN6o2Z06LH8O0McliOueuSWdw990K7yyM8ZbZ+x8hviYHHrxPINQZ5TnAT4izBBNrPXYbf1CCkGdD6LHSPkrw9n8cVjsFyI1id33Moq/JVnx; Expires=Sun, 09 May 2021 11:00:04 GMT; Path=/
+Set-Cookie: AWSALBCORS=9jkDxbrZIfUT2lnSGN6o2Z06LH8O0McliOueuSWdw990K7yyM8ZbZ+x8hviYHHrxPINQZ5TnAT4izBBNrPXYbf1CCkGdD6LHSPkrw9n8cVjsFyI1id33Moq/JVnx; Expires=Sun, 09 May 2021 11:00:04 GMT; Path=/; SameSite=None; Secure
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Set-Cookie: JSESSIONID=52E400D467E5CBC37523A63DCBA5D493; Path=/; HttpOnly
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+
+{
+    "orders": [
+        {
+            "orderId": 386588,
+            "scheduledDate": "2025-11-05",
+            "orderStatus": "Created",
+            "payoutDetails": [
+                {
+                    "id": 102502,
+                    "name": "NituDidi",
+                    "emailOrPhone": "nitukpmgtest1@mailinator.com",
+                    "amount": 10
+                }
+            ]
+        }
+    ]
+}
