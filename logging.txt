@@ -22,19 +22,19 @@ Body:
     "toDate": "2025-11-05",
     "payoutDetails": [
         {
-            "name": "NituDidi",
-            "emailOrPhone": "nitukpmgtest1@mailinator.com",
+            "name": "testUser",
+            "emailOrPhone": "testUserVn@mailinator.com",
             "amount": "10"
         }
     ]
 }
 HTTP/1.1 200 
-Date: Sun, 02 May 2021 11:00:04 GMT
+Date: Thu, 20 May 2021 10:50:21 GMT
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: AWSALB=9jkDxbrZIfUT2lnSGN6o2Z06LH8O0McliOueuSWdw990K7yyM8ZbZ+x8hviYHHrxPINQZ5TnAT4izBBNrPXYbf1CCkGdD6LHSPkrw9n8cVjsFyI1id33Moq/JVnx; Expires=Sun, 09 May 2021 11:00:04 GMT; Path=/
-Set-Cookie: AWSALBCORS=9jkDxbrZIfUT2lnSGN6o2Z06LH8O0McliOueuSWdw990K7yyM8ZbZ+x8hviYHHrxPINQZ5TnAT4izBBNrPXYbf1CCkGdD6LHSPkrw9n8cVjsFyI1id33Moq/JVnx; Expires=Sun, 09 May 2021 11:00:04 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: AWSALB=L/5b9H9R9TRTcIhuxOfIFRXglk6SO9uP93RMOsDSp0u1zQk72C7kiJpD4tSCLVVrnAWUjzE2/w4AXo7vrDm2ZBq9v8QuAOT/nArn2QSNadTLf3T43ptFU4JdOqva; Expires=Thu, 27 May 2021 10:50:20 GMT; Path=/
+Set-Cookie: AWSALBCORS=L/5b9H9R9TRTcIhuxOfIFRXglk6SO9uP93RMOsDSp0u1zQk72C7kiJpD4tSCLVVrnAWUjzE2/w4AXo7vrDm2ZBq9v8QuAOT/nArn2QSNadTLf3T43ptFU4JdOqva; Expires=Thu, 27 May 2021 10:50:20 GMT; Path=/; SameSite=None; Secure
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
@@ -47,7 +47,7 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
-Set-Cookie: JSESSIONID=52E400D467E5CBC37523A63DCBA5D493; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=496F17C003D508CC40A19CC9C74B8E3B; Path=/; HttpOnly
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
@@ -55,17 +55,176 @@ Vary: Access-Control-Request-Headers
 {
     "orders": [
         {
-            "orderId": 386588,
+            "orderId": 387019,
             "scheduledDate": "2025-11-05",
             "orderStatus": "Created",
             "payoutDetails": [
                 {
-                    "id": 102502,
-                    "name": "NituDidi",
-                    "emailOrPhone": "nitukpmgtest1@mailinator.com",
+                    "id": 102666,
+                    "name": "testUser",
+                    "emailOrPhone": "testUserVn@mailinator.com",
                     "amount": 10
                 }
             ]
         }
     ]
+}
+Request method:	POST
+Request URI:	https://sodexo-vn.preprod.zeta.in/sodexo/orders/387019/cancel
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=Bearer dG9rZW5WYWx1ZUZvcktQTUdDb3JwUHVibGljQVBJ
+				Host=sodexo-vn.preprod.zeta.in
+				Accept-Encoding=gzip, deflate, br
+				Connection=keep-alive
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Date: Thu, 20 May 2021 10:50:21 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=veRGr2KUuyflClfS7m6mkjN1phtc2AmNcomWQZeunf/17Kbe50EalsvOKdfQEoYJVj2AU/b2Zrl0HA/+rI75Khq6hmcXdfIqvsPlFT99VfG+Krq2MEDYnQDMjbCD; Expires=Thu, 27 May 2021 10:50:21 GMT; Path=/
+Set-Cookie: AWSALBCORS=veRGr2KUuyflClfS7m6mkjN1phtc2AmNcomWQZeunf/17Kbe50EalsvOKdfQEoYJVj2AU/b2Zrl0HA/+rI75Khq6hmcXdfIqvsPlFT99VfG+Krq2MEDYnQDMjbCD; Expires=Thu, 27 May 2021 10:50:21 GMT; Path=/; SameSite=None; Secure
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Set-Cookie: JSESSIONID=D9494967C6D79242E04B68B191B84119; Path=/; HttpOnly
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+
+{
+    "orderId": 387019,
+    "status": "Cancelled"
+}
+Request method:	POST
+Request URI:	https://sodexo-vn.preprod.zeta.in/sodexo/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=Bearer dG9rZW5WYWx1ZUZvcktQTUdDb3JwUHVibGljQVBJ
+				Host=sodexo-vn.preprod.zeta.in
+				Accept-Encoding=gzip, deflate, br
+				Connection=keep-alive
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "corpId": 17829,
+    "companyId": 18267,
+    "programId": 44623,
+    "fromDate": "2025-11-05",
+    "toDate": "2025-11-05",
+    "payoutDetails": [
+        {
+            "name": "ShaliniDidi",
+            "emailOrPhone": "Shalinikpmgtest1@mailinator.com",
+            "amount": "10"
+        }
+    ]
+}
+HTTP/1.1 200 
+Date: Thu, 20 May 2021 10:50:22 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=p9P3trcUhcBplT0cYJ0VCZwoRde5cb6zXLbIIe18L+eyEsmmSR11z9/QTUP2stT2SchP+f0Oq49TooQhIk17GPPmuGed4ITUy4KAT+TJ0OZT8o+JCK1kkOxhjNKa; Expires=Thu, 27 May 2021 10:50:22 GMT; Path=/
+Set-Cookie: AWSALBCORS=p9P3trcUhcBplT0cYJ0VCZwoRde5cb6zXLbIIe18L+eyEsmmSR11z9/QTUP2stT2SchP+f0Oq49TooQhIk17GPPmuGed4ITUy4KAT+TJ0OZT8o+JCK1kkOxhjNKa; Expires=Thu, 27 May 2021 10:50:22 GMT; Path=/; SameSite=None; Secure
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Set-Cookie: JSESSIONID=28DBAE84B88C3674B60C7BA7EACC9352; Path=/; HttpOnly
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+
+{
+    "orders": [
+        {
+            "orderId": 387020,
+            "scheduledDate": "2025-11-05",
+            "orderStatus": "Created",
+            "payoutDetails": [
+                {
+                    "id": 102667,
+                    "name": "ShaliniDidi",
+                    "emailOrPhone": "Shalinikpmgtest1@mailinator.com",
+                    "amount": 10
+                }
+            ]
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://sodexo-vn.preprod.zeta.in/sodexo/orders/387020/cancel
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=Bearer dG9rZW5WYWx1ZUZvcktQTUdDb3JwUHVibGljQVBJ
+				Host=sodexo-vn.preprod.zeta.in
+				Accept-Encoding=gzip, deflate, br
+				Connection=keep-alive
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Date: Thu, 20 May 2021 10:50:23 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: AWSALB=G93AoR3OIBQZECigHUiR9pPSaOQ9r4BlUBXNCuFeIogf0Sbpq5T4NwaQL1KOdQdavnZX7WZKdUKqxHqb8x0UZ+NeghKFCkexkR3xGTsox1rTBxFZruQ+ouoKqOcT; Expires=Thu, 27 May 2021 10:50:23 GMT; Path=/
+Set-Cookie: AWSALBCORS=G93AoR3OIBQZECigHUiR9pPSaOQ9r4BlUBXNCuFeIogf0Sbpq5T4NwaQL1KOdQdavnZX7WZKdUKqxHqb8x0UZ+NeghKFCkexkR3xGTsox1rTBxFZruQ+ouoKqOcT; Expires=Thu, 27 May 2021 10:50:23 GMT; Path=/; SameSite=None; Secure
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Set-Cookie: JSESSIONID=649BAE403F90491187957CAC6ABC4DE5; Path=/; HttpOnly
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+
+{
+    "orderId": 387020,
+    "status": "Cancelled"
 }

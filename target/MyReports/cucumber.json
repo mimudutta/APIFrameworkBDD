@@ -1,0 +1,316 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T10:50:19.970Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2515851000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BDD.APIFrameworkBDD.StepDefination.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify if order deletion is Successful",
+        "description": "",
+        "id": "cancle-payout-api-for-kpmg.;verify-if-order-deletion-is-successful",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3379000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add valid \"orderId\" in resource parameter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"orderId\"",
+                  "offset": 10
+                }
+              ],
+              "location": "BDD.APIFrameworkBDD.StepDefination.StepDefination.add_valid_in_resource_parameter(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212144000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User calls \"cancelOrder\" API with orderId in \"POST\" https request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cancelOrder",
+                  "offset": 12
+                },
+                {
+                  "val": "POST",
+                  "offset": 46
+                }
+              ],
+              "location": "BDD.APIFrameworkBDD.StepDefination.StepDefination.user_calls_something_api_with_orderid_in_something_https_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1486000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The API call should be \"Success\" with response code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success",
+                  "offset": 24
+                },
+                {
+                  "val": "200",
+                  "offset": 53
+                }
+              ],
+              "location": "BDD.APIFrameworkBDD.StepDefination.StepDefination.the_api_call_should_be_something_with_response_code_something(java.lang.String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 301709000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "In response body \"status\" to be \"Cancelled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 18
+                },
+                {
+                  "val": "Cancelled",
+                  "offset": 33
+                }
+              ],
+              "location": "BDD.APIFrameworkBDD.StepDefination.StepDefination.in_response_body_something_to_be_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@canclePayout"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Cancle Payout API for KPMG.",
+    "description": "",
+    "id": "cancle-payout-api-for-kpmg.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/BDD/APIFrameworkBDD/Features/CancelPayout.feature",
+    "tags": [
+      {
+        "name": "@canclePayout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T10:50:23.054Z",
+        "line": 13,
+        "name": "Verify if order creation is Successful with valid request parameters",
+        "description": "",
+        "id": "create-order-api-for-kpmg.;verify-if-order-creation-is-successful-with-valid-request-parameters;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 208186000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BDD.APIFrameworkBDD.StepDefination.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2773000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add request payload with valid input \"ShaliniDidi\" \"Shalinikpmgtest1@mailinator.com\" \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ShaliniDidi",
+                  "offset": 38
+                },
+                {
+                  "val": "Shalinikpmgtest1@mailinator.com",
+                  "offset": 52
+                },
+                {
+                  "val": "10",
+                  "offset": 86
+                }
+              ],
+              "location": "BDD.APIFrameworkBDD.StepDefination.StepDefination.add_request_payload_with_valid_input_something_something_something(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 663988000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User calls \"createOrder\" API with \"POST\" https request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "createOrder",
+                  "offset": 12
+                },
+                {
+                  "val": "POST",
+                  "offset": 35
+                }
+              ],
+              "location": "BDD.APIFrameworkBDD.StepDefination.StepDefination.user_calls_something_api_with_something_https_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 625000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The API call should be \"Success\" with response code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success",
+                  "offset": 24
+                },
+                {
+                  "val": "200",
+                  "offset": 53
+                }
+              ],
+              "location": "BDD.APIFrameworkBDD.StepDefination.StepDefination.the_api_call_should_be_something_with_response_code_something(java.lang.String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30732000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "In response body \"orderStatus\" should be \"Created\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "orderStatus",
+                  "offset": 18
+                },
+                {
+                  "val": "Created",
+                  "offset": 42
+                }
+              ],
+              "location": "BDD.APIFrameworkBDD.StepDefination.StepDefination.in_response_body_orderStatus_should_be_something_orderStatus(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "In response body \"orderId\" displayed \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "orderId",
+                  "offset": 18
+                },
+                {
+                  "val": "true",
+                  "offset": 38
+                }
+              ],
+              "location": "BDD.APIFrameworkBDD.StepDefination.StepDefination.in_response_body_something_displayed_something(java.lang.String,java.lang.Boolean)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@createOrder"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Create Order API for KPMG.",
+    "description": "",
+    "id": "create-order-api-for-kpmg.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/BDD/APIFrameworkBDD/Features/createOrder.feature",
+    "tags": [
+      {
+        "name": "@createOrder",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 14
+        }
+      }
+    ]
+  }
+]
