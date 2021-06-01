@@ -18,8 +18,8 @@ Body:
     "corpId": 17829,
     "companyId": 18267,
     "programId": 44623,
-    "fromDate": "2025-11-05",
-    "toDate": "2025-11-05",
+    "fromDate": "2025-11-07",
+    "toDate": "2025-11-07",
     "payoutDetails": [
         {
             "name": "testUser",
@@ -29,12 +29,12 @@ Body:
     ]
 }
 HTTP/1.1 200 
-Date: Thu, 20 May 2021 10:50:21 GMT
+Date: Tue, 01 Jun 2021 15:47:36 GMT
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: AWSALB=L/5b9H9R9TRTcIhuxOfIFRXglk6SO9uP93RMOsDSp0u1zQk72C7kiJpD4tSCLVVrnAWUjzE2/w4AXo7vrDm2ZBq9v8QuAOT/nArn2QSNadTLf3T43ptFU4JdOqva; Expires=Thu, 27 May 2021 10:50:20 GMT; Path=/
-Set-Cookie: AWSALBCORS=L/5b9H9R9TRTcIhuxOfIFRXglk6SO9uP93RMOsDSp0u1zQk72C7kiJpD4tSCLVVrnAWUjzE2/w4AXo7vrDm2ZBq9v8QuAOT/nArn2QSNadTLf3T43ptFU4JdOqva; Expires=Thu, 27 May 2021 10:50:20 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: AWSALB=mx/hRffG1a7GDDgB1vFXDkdiCtQNU29Nvw153n9FfR3qr7AiVdb01pc/8T3CPkAxbwgGqhtd6Aw6TFPZWf5L8KFBtv+2MeSbPsCQKbbddGAkn71VNfuIaCelUtlH; Expires=Tue, 08 Jun 2021 15:47:35 GMT; Path=/
+Set-Cookie: AWSALBCORS=mx/hRffG1a7GDDgB1vFXDkdiCtQNU29Nvw153n9FfR3qr7AiVdb01pc/8T3CPkAxbwgGqhtd6Aw6TFPZWf5L8KFBtv+2MeSbPsCQKbbddGAkn71VNfuIaCelUtlH; Expires=Tue, 08 Jun 2021 15:47:35 GMT; Path=/; SameSite=None; Secure
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
@@ -47,7 +47,7 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
-Set-Cookie: JSESSIONID=496F17C003D508CC40A19CC9C74B8E3B; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=AAD79A74E5108DC4D0E185F764633FA2; Path=/; HttpOnly
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
@@ -55,12 +55,12 @@ Vary: Access-Control-Request-Headers
 {
     "orders": [
         {
-            "orderId": 387019,
-            "scheduledDate": "2025-11-05",
+            "orderId": 387316,
+            "scheduledDate": "2025-11-07",
             "orderStatus": "Created",
             "payoutDetails": [
                 {
-                    "id": 102666,
+                    "id": 102697,
                     "name": "testUser",
                     "emailOrPhone": "testUserVn@mailinator.com",
                     "amount": 10
@@ -70,7 +70,7 @@ Vary: Access-Control-Request-Headers
     ]
 }
 Request method:	POST
-Request URI:	https://sodexo-vn.preprod.zeta.in/sodexo/orders/387019/cancel
+Request URI:	https://sodexo-vn.preprod.zeta.in/sodexo/orders/387316/cancel
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -86,12 +86,12 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 
-Date: Thu, 20 May 2021 10:50:21 GMT
+Date: Tue, 01 Jun 2021 15:47:36 GMT
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: AWSALB=veRGr2KUuyflClfS7m6mkjN1phtc2AmNcomWQZeunf/17Kbe50EalsvOKdfQEoYJVj2AU/b2Zrl0HA/+rI75Khq6hmcXdfIqvsPlFT99VfG+Krq2MEDYnQDMjbCD; Expires=Thu, 27 May 2021 10:50:21 GMT; Path=/
-Set-Cookie: AWSALBCORS=veRGr2KUuyflClfS7m6mkjN1phtc2AmNcomWQZeunf/17Kbe50EalsvOKdfQEoYJVj2AU/b2Zrl0HA/+rI75Khq6hmcXdfIqvsPlFT99VfG+Krq2MEDYnQDMjbCD; Expires=Thu, 27 May 2021 10:50:21 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: AWSALB=+0QAHU4M3PYFhjN+JxpEfb80JCRLOgr6v+9EAPG61UW1aNp8nqqldU9eqaZ9ofH9Fui2eli1elRyrx/4FZ1HeuPwesXg9GukSwdlzGx3tvIptQ1sE7xdcjhjvtqh; Expires=Tue, 08 Jun 2021 15:47:36 GMT; Path=/
+Set-Cookie: AWSALBCORS=+0QAHU4M3PYFhjN+JxpEfb80JCRLOgr6v+9EAPG61UW1aNp8nqqldU9eqaZ9ofH9Fui2eli1elRyrx/4FZ1HeuPwesXg9GukSwdlzGx3tvIptQ1sE7xdcjhjvtqh; Expires=Tue, 08 Jun 2021 15:47:36 GMT; Path=/; SameSite=None; Secure
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
@@ -104,13 +104,13 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
-Set-Cookie: JSESSIONID=D9494967C6D79242E04B68B191B84119; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=DEA4E8C7A83C2268A45314D01AE7CA91; Path=/; HttpOnly
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
 
 {
-    "orderId": 387019,
+    "orderId": 387316,
     "status": "Cancelled"
 }
 Request method:	POST
@@ -133,8 +133,8 @@ Body:
     "corpId": 17829,
     "companyId": 18267,
     "programId": 44623,
-    "fromDate": "2025-11-05",
-    "toDate": "2025-11-05",
+    "fromDate": "2025-11-07",
+    "toDate": "2025-11-07",
     "payoutDetails": [
         {
             "name": "ShaliniDidi",
@@ -144,12 +144,12 @@ Body:
     ]
 }
 HTTP/1.1 200 
-Date: Thu, 20 May 2021 10:50:22 GMT
+Date: Tue, 01 Jun 2021 15:47:37 GMT
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: AWSALB=p9P3trcUhcBplT0cYJ0VCZwoRde5cb6zXLbIIe18L+eyEsmmSR11z9/QTUP2stT2SchP+f0Oq49TooQhIk17GPPmuGed4ITUy4KAT+TJ0OZT8o+JCK1kkOxhjNKa; Expires=Thu, 27 May 2021 10:50:22 GMT; Path=/
-Set-Cookie: AWSALBCORS=p9P3trcUhcBplT0cYJ0VCZwoRde5cb6zXLbIIe18L+eyEsmmSR11z9/QTUP2stT2SchP+f0Oq49TooQhIk17GPPmuGed4ITUy4KAT+TJ0OZT8o+JCK1kkOxhjNKa; Expires=Thu, 27 May 2021 10:50:22 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: AWSALB=lznzMYRxytx1fCco0c9xgUyBicfX3MzgqY85+c/Ct1zX1t7dxWHVxcKFHq08ZdyKAHs7EEVO7QmxeJtKZc1wC4LKv+Vo9LpsCrM1OK/VT5gemnussI07B3NCDHoW; Expires=Tue, 08 Jun 2021 15:47:36 GMT; Path=/
+Set-Cookie: AWSALBCORS=lznzMYRxytx1fCco0c9xgUyBicfX3MzgqY85+c/Ct1zX1t7dxWHVxcKFHq08ZdyKAHs7EEVO7QmxeJtKZc1wC4LKv+Vo9LpsCrM1OK/VT5gemnussI07B3NCDHoW; Expires=Tue, 08 Jun 2021 15:47:36 GMT; Path=/; SameSite=None; Secure
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
@@ -162,7 +162,7 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
-Set-Cookie: JSESSIONID=28DBAE84B88C3674B60C7BA7EACC9352; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=3D60C3551D3393A7511A0D90763B742B; Path=/; HttpOnly
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
@@ -170,12 +170,12 @@ Vary: Access-Control-Request-Headers
 {
     "orders": [
         {
-            "orderId": 387020,
-            "scheduledDate": "2025-11-05",
+            "orderId": 387317,
+            "scheduledDate": "2025-11-07",
             "orderStatus": "Created",
             "payoutDetails": [
                 {
-                    "id": 102667,
+                    "id": 102698,
                     "name": "ShaliniDidi",
                     "emailOrPhone": "Shalinikpmgtest1@mailinator.com",
                     "amount": 10
@@ -185,7 +185,7 @@ Vary: Access-Control-Request-Headers
     ]
 }
 Request method:	POST
-Request URI:	https://sodexo-vn.preprod.zeta.in/sodexo/orders/387020/cancel
+Request URI:	https://sodexo-vn.preprod.zeta.in/sodexo/orders/387317/cancel
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -201,12 +201,12 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 
-Date: Thu, 20 May 2021 10:50:23 GMT
+Date: Tue, 01 Jun 2021 15:47:37 GMT
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: AWSALB=G93AoR3OIBQZECigHUiR9pPSaOQ9r4BlUBXNCuFeIogf0Sbpq5T4NwaQL1KOdQdavnZX7WZKdUKqxHqb8x0UZ+NeghKFCkexkR3xGTsox1rTBxFZruQ+ouoKqOcT; Expires=Thu, 27 May 2021 10:50:23 GMT; Path=/
-Set-Cookie: AWSALBCORS=G93AoR3OIBQZECigHUiR9pPSaOQ9r4BlUBXNCuFeIogf0Sbpq5T4NwaQL1KOdQdavnZX7WZKdUKqxHqb8x0UZ+NeghKFCkexkR3xGTsox1rTBxFZruQ+ouoKqOcT; Expires=Thu, 27 May 2021 10:50:23 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: AWSALB=Aac4QVRZBAWpDOHC+9aET5kUpGQ+X4tBoHgWjNRdsprO/s9lHoQuZSDatcAupLfKnEAd9K89xl++cpSoeHsW9p30HQVwbw15h2ChPopTbTanKk66CT69herl++hr; Expires=Tue, 08 Jun 2021 15:47:37 GMT; Path=/
+Set-Cookie: AWSALBCORS=Aac4QVRZBAWpDOHC+9aET5kUpGQ+X4tBoHgWjNRdsprO/s9lHoQuZSDatcAupLfKnEAd9K89xl++cpSoeHsW9p30HQVwbw15h2ChPopTbTanKk66CT69herl++hr; Expires=Tue, 08 Jun 2021 15:47:37 GMT; Path=/; SameSite=None; Secure
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
@@ -219,12 +219,12 @@ Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: 0
 X-Frame-Options: DENY
-Set-Cookie: JSESSIONID=649BAE403F90491187957CAC6ABC4DE5; Path=/; HttpOnly
+Set-Cookie: JSESSIONID=9CECF8F7C4A468C635D7254ABFBA0288; Path=/; HttpOnly
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
 
 {
-    "orderId": 387020,
+    "orderId": 387317,
     "status": "Cancelled"
 }

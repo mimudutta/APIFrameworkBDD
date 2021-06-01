@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="4.113">
-    <testcase classname="Cancle Payout API for KPMG." name="Verify if order deletion is Successful" time="3.076">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="3.696">
+    <testcase classname="Cancle Payout API for KPMG." name="Verify if order deletion is Successful" time="2.735">
         <system-out><![CDATA[Given Add valid "orderId" in resource parameter.............................passed
 When User calls "cancelOrder" API with orderId in "POST" https request......passed
 Then The API call should be "Success" with response code "200"..............passed
 And In response body "status" to be "Cancelled".............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Create Order API for KPMG." name="Verify if order creation is Successful with valid request parameters" time="0.911">
+    <testcase classname="Create Order API for KPMG." name="Verify if order creation is Successful with valid request parameters" time="0.858">
         <system-out><![CDATA[Given Add request payload with valid input "ShaliniDidi" "Shalinikpmgtest1@mailinator.com" "10".passed
 When User calls "createOrder" API with "POST" https request.................passed
 Then The API call should be "Success" with response code "200"..............passed
